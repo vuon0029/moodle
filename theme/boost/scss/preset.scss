@@ -15,30 +15,30 @@
 
 // Apply font globally
 body {
-  font-family: "Barlow", sans-serif !important;
+  font-family: "Barlow", sans-serif;
 }
 
 .navbar.fixed-top {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 
-  height: auto !important;
+  height: auto;
 }
 
 .btn-outline-primary:hover {
-  background-color: white !important;
+  background-color: white;
   color: #005587;
 }
 
 @media (min-width: 768px) {
   .navbar {
-    padding-left: 100px !important;
-    padding-right: 10px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    height: auto !important;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
   }
 
   .dropdown-menu-right {
