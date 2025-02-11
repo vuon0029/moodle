@@ -50,7 +50,7 @@
     "function-parentheses-space-inside": "never-single-line",
     "function-url-scheme-disallowed-list": ["data"],
     "function-whitespace-after": "always",
-    "indentation": 1,
+
     "keyframe-declaration-no-important": true,
     "length-zero-no-unit": [true, { "severity": "warning" }],
     "max-empty-lines": 2,
