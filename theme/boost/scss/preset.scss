@@ -1,1 +1,47 @@
 // This file is intentionally empty.
+@font-face {
+  font-family: "Barlow";
+  src: url([[theme:boost|fonts/Barlow-Regular.ttf]]) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url([[theme:boost|fonts/Barlow-Bold.ttf]]) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+// Apply font globally
+body {
+  font-family: "Barlow", sans-serif !important;
+}
+
+.navbar.fixed-top {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+
+  height: auto !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: white !important;
+  color: #005587;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding-left: 100px !important;
+    padding-right: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto !important;
+  }
+
+  .dropdown-menu-right {
+    margin-top: 10px;
+  }
+}
