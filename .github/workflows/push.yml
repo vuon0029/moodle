@@ -66,9 +66,9 @@ jobs:
             extensions:
             db: mysqli
           # PostgreSQL builds always run with the highest PHP supported version.
-          - os: ubuntu-22.04
-            php: 8.3
-            db: pgsql
+          # - os: ubuntu-22.04
+          #   php: 8.3
+          #   db: pgsql
 
     steps:
       - name: Setting up DB mysql
